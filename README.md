@@ -15,6 +15,7 @@ The POCs have their Names and location identified by latitude-longitude. Since, 
 
 ## **Fetching Address for each POC from latitude-longitude**
 Once we filter out POCs from these regions, we find address for that POC from latitude-longitude. This address will be used in subsequent steps of POCs matching to identify Prospects. I have passed latitude-longitude values as query string into the _googlemaps_ api to fetch the Address. 
+
 ![Capture](https://user-images.githubusercontent.com/53387262/141338553-98dee41a-133d-4a7e-9798-ff575eb41883.PNG)
 
 Using API to fetch info often results in error, so for some POCs, Addresses returned are null and void, so can't use these in further stages. 
@@ -29,7 +30,7 @@ Normally, different iterations have to be done by considering all possible combi
 
 ## **Matching & Identifying Prospects**
 ![Capture](https://user-images.githubusercontent.com/53387262/141349967-62784520-edf8-49ae-abf4-f087f2fdb8bd.PNG)
-### _Geohash Refining:_
+#### _Geohash Refining:_
 In Matching, we are comparing POCs within a Geohash. A Geohash is a unique identifier for a particular region on the Earth. 
 
 We see some Geohash contains more POCs, so more comparisons had to be done, so matching becomesslow. That’s why, I split a Geohash if it contains more than 150 POCs & re-tag the POCs to those refined Geohashes. Using this I was able to increase Effectiveness of Matching.
