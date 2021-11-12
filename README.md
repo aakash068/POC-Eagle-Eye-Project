@@ -2,6 +2,8 @@
 
 Identify Prospects from Online Source for Business Expansion, classify them as per their Business Segments and rank them as per their popularity
 
+![Capture1](https://user-images.githubusercontent.com/53387262/141434144-98a28fae-7878-43d9-a074-1ff00ad7a64f.PNG)
+
 ## **Project Overview**:
 
 ![Capture](https://user-images.githubusercontent.com/53387262/141350655-3202b1f8-b2b9-4c08-878b-91ab077c2424.PNG)
